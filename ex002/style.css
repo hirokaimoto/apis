@@ -1,0 +1,57 @@
+
+html {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    /* position: fixed; */
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to right, #abbaab, #ffffff);
+    padding: 50px;
+    text-align: center;
+    
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    color: rgb(78, 77, 77);
+}
+
+#posts {
+    padding-top: 30px;
+    max-width: 500px;
+    margin-left: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin-bottom: 10px;
+}
+
+form {
+    display: grid;
+    background-color: rgb(134, 133, 126);
+    padding: 10px;
+    
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
