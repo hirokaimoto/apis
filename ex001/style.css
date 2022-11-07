@@ -1,0 +1,29 @@
+ body {
+    text-align: center;
+    background: linear-gradient(to right, #556270, #ff6b6b);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #btn {
+    padding: 4em;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #f0c27b, #4b1248);
+    border: 1px solid black;
+    cursor: pointer;
+    
+ }
+
+ .animated {
+    animation: mymove 2s ease-in-out ;
+ }
+
+ @keyframes mymove {
+  0% {
+    transform: rotate(0deg) translateX(0px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(0px);
+  }
+}
+ 
