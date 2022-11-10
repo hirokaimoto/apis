@@ -49,6 +49,13 @@ function drawTwoCards() {
         message.textContent = determineWinner(data.cards[0], data.cards[1])
         if (!data.remaining) {
             drawCards.disabled = true
+            if(computerScore > playerScore) {
+                message.textContent = 'Computer has Won The Game!'
+            } else if (computerScore < playerScore) {
+                message.textContent = 'You has Won The Game!'
+            } else {
+                message.textContent = 'The game has a Tie!'
+            }
         }
 
     })
