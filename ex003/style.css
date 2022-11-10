@@ -1,0 +1,45 @@
+
+body {
+    background-image: url(img/table.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+
+button {
+    background-color: saddlebrown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#deck-btn {
+  align-self: start;
+}
+
+#cards {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+}
+
+.card-slot {
+    width: calc(14em * 5 / 7);
+    height: 14em;
+    border: .2em solid black;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+img.card {
+    width: 100%;
+    height: 100%;
+}
