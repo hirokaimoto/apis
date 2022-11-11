@@ -13,7 +13,7 @@ body {
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px 2px #474747;
-    margin: 0 .6em;
+    margin: 0em .6em;
 }
 
 main {
@@ -21,6 +21,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 0.5em;
 
 }
 
@@ -31,4 +32,18 @@ div.top {
 
 .time {
     text-align: center;
+}
+
+#crypto-data {
+    
+}
+
+#crypto-header {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+#crypto-header > span {
+    margin-left: 1em;
 }
