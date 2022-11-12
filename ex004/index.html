@@ -7,15 +7,17 @@
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="displayTime()">
         <main>
             <div class="top">
                 <div id="crypto-data">
                     <div id="crypto-header"></div>
                 </div>
-                <p>Weather</p>
+                <div id="weather">
+                    <p>Weather</p>
+                </div>
             </div>
-            <h1 class="time">TIME HERE</h1>
+            <h1 id="time" class="time">TIME HERE</h1>
             <p id="author-name"></p>
         </main>
 

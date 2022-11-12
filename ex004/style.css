@@ -28,14 +28,16 @@ main {
 div.top {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .time {
     text-align: center;
 }
 
-#crypto-data {
-    
+#crypto-data > p {
+    margin: 0;
+    padding-bottom: .5em;
 }
 
 #crypto-header {
@@ -46,4 +48,27 @@ div.top {
 
 #crypto-header > span {
     margin-left: 1em;
+}
+
+#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.city {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#weather > img {
+    width: 4rem;
+}
+
+.temp {
+    font-size: 1.7rem;
 }
